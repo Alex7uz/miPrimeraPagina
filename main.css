@@ -1,0 +1,52 @@
+body{
+    background-color: #463a5e;
+    color: aliceblue;
+}
+
+
+.container-nav {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+    list-style: none; /* Remueve los puntos/bullets de la lista */
+    padding: 10px;
+    margin: 0;
+    justify-content: end;
+    align-items: center;
+    border: solid black 2px;
+  
+  }
+  .secciones{ 
+    margin-right: 40px; /* Espacio entre los elementos de lista */
+    border: solid rgb(247, 18, 18) 2px;
+    border-radius: 33px;
+    padding: 5px;
+  } 
+  
+  .secciones:last-child {
+    margin-right: 15px; 
+  }
+
+.container{
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+
+.imagenes-container{ display: flex;  justify-content: center;
+  width: 800px; height: 300px;
+  }
+.imagenes-subcontainer{
+  
+}
